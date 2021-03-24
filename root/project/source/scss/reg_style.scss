@@ -1,0 +1,75 @@
+@import "nullstyle.scss";
+@import "var.scss";
+@import "menu_style.scss";
+@import "footer_style.scss";
+
+body{
+	background: url('../../img/bg.png');;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.content{
+  margin: 0 auto; 
+
+}
+
+.box{
+	
+	background: none;
+	text-align: center;
+
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 34px 0 34px 0;
+	margin-bottom: 135px;
+	h1{
+	    text-transform: uppercase;
+	    margin-bottom: 25px;
+  }
+
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 20px auto;
+
+  border: 0px;
+  display: block;
+  text-align: center;
+  border: 1px solid $pink_color;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  &:focus{
+  	 background-color: #ddd;
+  	 outline: none;
+  }
+
+}
+
+.registerbtn {
+  background-color:$pink-color;
+  color: white;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  &:hover{
+  		opacity:1;
+	}
+}
+.signin {
+
+  text-align: center;
+}
+
+.radio{
+	display: inline-block;
+	max-width: 100px;
+}
